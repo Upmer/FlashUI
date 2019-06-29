@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    let btn = UIButton().normalTitle("Hello world").font(.boldSystemFont(ofSize: 20))
+    .normalTitleColor(.green).superview(view)
+    btn.frame = CGRect(x: 100, y: 100, width: 120, height: 30)
   }
 
 
