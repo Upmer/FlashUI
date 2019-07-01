@@ -9,6 +9,31 @@
 import UIKit
 
 extension UIView {
+  func tag(_ tag: Int) -> Self {
+    self.tag = tag
+    return self
+  }
+  
+  func x(_ x: CGFloat) -> Self {
+    self.frame = CGRect(x: x, y: self.frame.origin.y, width: self.frame.size.width, height: self.frame.size.height)
+    return self
+  }
+  
+  func y(_ y: CGFloat) -> Self {
+    self.frame = CGRect(x: self.frame.origin.x, y: y, width: self.frame.size.width, height: self.frame.size.height)
+    return self
+  }
+  
+  func width(_ width: CGFloat) -> Self {
+    self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: width, height: self.frame.size.height)
+    return self
+  }
+  
+  func height(_ height: CGFloat) -> Self {
+    self.frame = CGRect(x: self.frame.origin.x, y: self.frame.origin.y, width: self.frame.size.width, height: height)
+    return self
+  }
+  
   func superview(_ view: UIView) -> Self {
     view.addSubview(self)
     return self
@@ -46,11 +71,12 @@ extension UIView {
     self.layer.shadowOpacity = opacity
     return self
   }
+  
+  func tapGestureRecognizer(target: Any, action: Selector, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
+    let tap = UITapGestureRecognizer(target: target, action: action)
+    tap.numberOfTapsRequired = 1
+    tap.numberOfTouchesRequired = 1
+    self.addGestureRecognizer(tap)
+    return self
+  }
 }
-
-
-
-
-
-
-
