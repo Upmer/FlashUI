@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8371867122CBC27C00C438F7 /* UITextField+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8371867022CBC27C00C438F7 /* UITextField+FlashUI.swift */; };
 		83DC6F5922CB59F1003A7A97 /* UISearchBar+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DC6F5822CB59F1003A7A97 /* UISearchBar+FlashUI.swift */; };
 		83E799DF22C7E0A200BB2737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799DE22C7E0A200BB2737 /* AppDelegate.swift */; };
 		83E799E122C7E0A200BB2737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799E022C7E0A200BB2737 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8371867022CBC27C00C438F7 /* UITextField+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+FlashUI.swift"; sourceTree = "<group>"; };
 		83DC6F5822CB59F1003A7A97 /* UISearchBar+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+FlashUI.swift"; sourceTree = "<group>"; };
 		83E799DB22C7E0A200BB2737 /* FlashUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E799DE22C7E0A200BB2737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				83E79A1522C7E63E00BB2737 /* UIScrollView+FlashUI.swift */,
 				83E79A1722C7E74500BB2737 /* UICollectionView+FlashUI.swift */,
 				83E79A1922C7E81500BB2737 /* UIStackView+FlashUI.swift */,
+				8371867022CBC27C00C438F7 /* UITextField+FlashUI.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				83E79A1422C7E56400BB2737 /* UILabel+FlashUI.swift in Sources */,
 				83E79A1622C7E63E00BB2737 /* UIScrollView+FlashUI.swift in Sources */,
 				83E79A1822C7E74500BB2737 /* UICollectionView+FlashUI.swift in Sources */,
+				8371867122CBC27C00C438F7 /* UITextField+FlashUI.swift in Sources */,
 				83E79A1022C7E23D00BB2737 /* UIImageView+FlashUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

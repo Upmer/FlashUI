@@ -25,6 +25,22 @@ extension UIButton {
     self.setImage(image, for: .highlighted)
     return self
   }
+  func normalBackgroundImage(_ image: UIImage?) -> Self {
+    self.setBackgroundImage(image, for: .normal)
+    return self
+  }
+  func selectedBackgroundImage(_ image: UIImage?) -> Self {
+    self.setBackgroundImage(image, for: .selected)
+    return self
+  }
+  func disabledBackgroundImage(_ image: UIImage?) -> Self {
+    self.setBackgroundImage(image, for: .disabled)
+    return self
+  }
+  func highlightedBackgroundImage(_ image: UIImage?) -> Self {
+    self.setBackgroundImage(image, for: .highlighted)
+    return self
+  }
   
   func normalTitle(_ title: String?) -> Self {
     self.setTitle(title, for: .normal)
