@@ -59,6 +59,12 @@ extension UIButton {
     self.setTitleColor(color, for: .highlighted)
     return self
   }
+  
+  func adjustsImageWhenHighlighted(_ enable: Bool) -> Self {
+    self.adjustsImageWhenHighlighted = enable
+    return self
+  }
+  
   func font(_ font: UIFont) -> Self {
     self.titleLabel?.font = font
     return self
