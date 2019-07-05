@@ -9,11 +9,49 @@
 import UIKit
 
 extension UIView {
+  // MARK: Common
+  func superview(_ view: UIView) -> Self {
+    view.addSubview(self)
+    return self
+  }
+  func contentMode(_ mode: UIView.ContentMode) -> Self {
+    self.contentMode = mode
+    return self
+  }
   func tag(_ tag: Int) -> Self {
     self.tag = tag
     return self
   }
+  func isHidden(_ isHidden: Bool = true) -> Self {
+    self.isHidden = isHidden
+    return self
+  }
+  func alpha(_ alpha: CGFloat) -> Self {
+    self.alpha = alpha
+    return self
+  }
+  func isOpaque(_ isOpaque: Bool) -> Self {
+    self.isOpaque = isOpaque
+    return self
+  }
+  func mask(_ mask: UIView?) -> Self {
+    self.mask = mask
+    return self
+  }
+  func backgroundColor(_ color: UIColor?) -> Self {
+    self.backgroundColor = color
+    return self
+  }
+  func tintColor(_ tintColor: UIColor) -> Self {
+    self.tintColor = tintColor
+    return self
+  }
+  func tintAdjustmentMode(_ tintAdjustmentMode: UIView.TintAdjustmentMode) -> Self {
+    self.tintAdjustmentMode = tintAdjustmentMode
+    return self
+  }
   
+  // MARK: Position
   func x(_ x: CGFloat) -> Self {
     self.frame = CGRect(x: x, y: self.frame.origin.y, width: self.frame.size.width, height: self.frame.size.height)
     return self
@@ -34,28 +72,21 @@ extension UIView {
     return self
   }
   
-  func superview(_ view: UIView) -> Self {
-    view.addSubview(self)
+  func frame(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat) -> Self {
+    self.frame = CGRect(x: x, y: y, width: width, height: height)
     return self
   }
-  
-  func contentMode(_ mode: UIView.ContentMode) -> Self {
-    self.contentMode = mode
+  func bounds(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat) -> Self {
+    self.frame = CGRect(x: x, y: y, width: width, height: height)
     return self
   }
-  
-  func backgroundColor(_ color: UIColor?) -> Self {
-    self.backgroundColor = color
+  func center(x: CGFloat, y: CGFloat) -> Self {
+    self.center = CGPoint(x: x, y: y)
     return self
   }
-  
+  // MARK: Layer
   func clipsToBounds(_ clipsToBounds: Bool = true) -> Self {
     self.clipsToBounds = clipsToBounds
-    return self
-  }
-  
-  func isHidden(_ isHidden: Bool = true) -> Self {
-    self.isHidden = isHidden
     return self
   }
   
@@ -77,7 +108,7 @@ extension UIView {
     self.layer.borderWidth = width
     return self
   }
-  
+  // MARK: Action
   func tapGestureRecognizer(target: Any, action: Selector, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
     let tap = UITapGestureRecognizer(target: target, action: action)
     tap.numberOfTapsRequired = 1

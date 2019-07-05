@@ -26,11 +26,6 @@ extension UISearchBar {
     return self
   }
   
-  func tintColor(_ color: UIColor) -> Self {
-    self.tintColor = color
-    return self
-  }
-  
   func barTintColor(_ color: UIColor?) -> Self {
     self.barTintColor = color
     return self
