@@ -111,9 +111,37 @@ extension UIView {
   // MARK: Action
   func tapGestureRecognizer(target: Any, action: Selector, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
     let tap = UITapGestureRecognizer(target: target, action: action)
-    tap.numberOfTapsRequired = 1
-    tap.numberOfTouchesRequired = 1
+    tap.numberOfTapsRequired = numberOfTapsRequired
+    tap.numberOfTouchesRequired = numberOfTouchesRequired
     self.addGestureRecognizer(tap)
+    return self
+  }
+  func longPressGestureRecognizer(target: Any, action: Selector, minimumPressDuration: TimeInterval, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
+    let longPress = UILongPressGestureRecognizer(target: target, action: action)
+    longPress.minimumPressDuration = minimumPressDuration
+    longPress.numberOfTapsRequired = numberOfTapsRequired
+    longPress.numberOfTouchesRequired = numberOfTouchesRequired
+    self.addGestureRecognizer(longPress)
+    return self
+  }
+  func swipeGestureRecognizer(target: Any, action: Selector, direction: UISwipeGestureRecognizer.Direction = UISwipeGestureRecognizer.Direction.right, numberOfTouchesRequired: Int = 1) -> Self {
+    let swipe = UISwipeGestureRecognizer(target: target, action: action)
+    swipe.direction = direction
+    swipe.numberOfTouchesRequired = numberOfTouchesRequired
+    self.addGestureRecognizer(swipe)
+    return self
+  }
+  func panGestureRecognizer(target: Any, action: Selector, minimumNumberOfTouches: Int = 1, maximumNumberOfTouches: Int = Int.max) -> Self {
+    let pan = UIPanGestureRecognizer(target: target, action: action)
+    pan.minimumNumberOfTouches = minimumNumberOfTouches
+    pan.maximumNumberOfTouches = maximumNumberOfTouches
+    self.addGestureRecognizer(pan)
+    return self
+  }
+  func pinchGestureRecognizer(target: Any, action: Selector, scale: CGFloat) -> Self {
+    let pinch = UIPinchGestureRecognizer(target: target, action: action)
+    pinch.scale = scale
+    self.addGestureRecognizer(pinch)
     return self
   }
 }
