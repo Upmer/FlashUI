@@ -72,6 +72,12 @@ extension UIView {
     return self
   }
   
+  func border(color: UIColor, width: CGFloat = 0) -> Self {
+    self.layer.borderColor = color.cgColor
+    self.layer.borderWidth = width
+    return self
+  }
+  
   func tapGestureRecognizer(target: Any, action: Selector, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
     let tap = UITapGestureRecognizer(target: target, action: action)
     tap.numberOfTapsRequired = 1
