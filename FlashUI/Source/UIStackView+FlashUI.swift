@@ -25,6 +25,14 @@ extension UIStackView {
     self.spacing = spacing
     return self
   }
+  func isBaselineRelativeArrangement(_ isBaselineRelativeArrangement: Bool) -> Self {
+    self.isBaselineRelativeArrangement = isBaselineRelativeArrangement
+    return self
+  }
+  func isLayoutMarginsRelativeArrangement(_ isLayoutMarginsRelativeArrangement: Bool) -> Self {
+    self.isLayoutMarginsRelativeArrangement = isLayoutMarginsRelativeArrangement
+    return self
+  }
   
   func add(_ generator: (() -> UIView)) {
     self.addArrangedSubview(generator())
