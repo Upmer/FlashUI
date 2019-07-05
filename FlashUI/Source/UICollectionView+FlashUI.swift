@@ -19,7 +19,7 @@ extension UICollectionView {
   }
   
   @available(iOS 10.0, *)
-  weak func prefetchDataSource(_ prefetchDataSource: UICollectionViewDataSourcePrefetching?) -> Self {
+  func prefetchDataSource(_ prefetchDataSource: UICollectionViewDataSourcePrefetching?) -> Self {
     self.prefetchDataSource = prefetchDataSource
     return self
   }
