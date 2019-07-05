@@ -138,10 +138,4 @@ extension UIView {
     self.addGestureRecognizer(pan)
     return self
   }
-  func pinchGestureRecognizer(target: Any, action: Selector, scale: CGFloat) -> Self {
-    let pinch = UIPinchGestureRecognizer(target: target, action: action)
-    pinch.scale = scale
-    self.addGestureRecognizer(pinch)
-    return self
-  }
 }

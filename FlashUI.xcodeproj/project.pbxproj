@@ -150,10 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				83E79A0D22C7E0BD00BB2737 /* UIView+FlashUI.swift */,
+				83E79A1322C7E56400BB2737 /* UILabel+FlashUI.swift */,
 				83DC6F5822CB59F1003A7A97 /* UISearchBar+FlashUI.swift */,
 				83E79A0F22C7E23D00BB2737 /* UIImageView+FlashUI.swift */,
 				83E79A1122C7E32A00BB2737 /* UIButton+FlashUI.swift */,
-				83E79A1322C7E56400BB2737 /* UILabel+FlashUI.swift */,
 				83E79A1522C7E63E00BB2737 /* UIScrollView+FlashUI.swift */,
 				83E79A1722C7E74500BB2737 /* UICollectionView+FlashUI.swift */,
 				83E79A1922C7E81500BB2737 /* UIStackView+FlashUI.swift */,
