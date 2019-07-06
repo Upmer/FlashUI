@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIStackView {
+public extension UIStackView {
   func axis(_ axis: NSLayoutConstraint.Axis) -> Self {
     self.axis = axis
     return self

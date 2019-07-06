@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UICollectionView {
+public extension UICollectionView {
   func dataSource(_ dataSource: UICollectionViewDataSource?) -> Self {
     self.dataSource = dataSource
     return self

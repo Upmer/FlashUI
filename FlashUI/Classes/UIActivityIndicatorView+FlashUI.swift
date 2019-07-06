@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIActivityIndicatorView {
+public extension UIActivityIndicatorView {
   func style(_ style: UIActivityIndicatorView.Style) -> Self {
     self.style = style
     return self

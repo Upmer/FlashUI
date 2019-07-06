@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
   func normalImage(_ image: UIImage?) -> Self {
     self.setImage(image, for: .normal)
     return self

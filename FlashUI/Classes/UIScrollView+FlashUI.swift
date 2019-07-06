@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIScrollView {
+public extension UIScrollView {
   func contentInset(top: CGFloat, left: CGFloat, bottom: CGFloat, right: CGFloat) -> Self {
     self.contentInset = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
     return self

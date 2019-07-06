@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
   // MARK: Common
   func superview(_ view: UIView) -> Self {
     view.addSubview(self)

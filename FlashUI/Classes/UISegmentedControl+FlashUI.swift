@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UISegmentedControl {
+public extension UISegmentedControl {
   func isMomentary(_ isMomentary: Bool) -> Self {
     self.isMomentary = isMomentary
     return self

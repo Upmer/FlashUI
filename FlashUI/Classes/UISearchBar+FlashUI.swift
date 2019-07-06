@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UISearchBar {
+public extension UISearchBar {
   func barStyle(_ barStyle: UIBarStyle) -> Self {
     self.barStyle = barStyle
     return self

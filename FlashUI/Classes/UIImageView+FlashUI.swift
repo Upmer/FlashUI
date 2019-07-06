@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
   func image(_ image: UIImage?) -> Self {
     self.image = image
     return self

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITextField {
+public extension UITextField {
   func text(_ text: String?) -> Self {
     self.text = text
     return self

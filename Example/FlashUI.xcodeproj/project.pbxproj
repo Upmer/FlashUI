@@ -3,22 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8365C43022D053C30047D72B /* UITableView+Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42422D053C30047D72B /* UITableView+Flash.swift */; };
-		8365C43122D053C30047D72B /* UISearchBar+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42522D053C30047D72B /* UISearchBar+FlashUI.swift */; };
-		8365C43222D053C30047D72B /* UIActivityIndicatorView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42622D053C30047D72B /* UIActivityIndicatorView+FlashUI.swift */; };
-		8365C43322D053C30047D72B /* UILabel+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42722D053C30047D72B /* UILabel+FlashUI.swift */; };
-		8365C43422D053C30047D72B /* UIButton+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42822D053C30047D72B /* UIButton+FlashUI.swift */; };
-		8365C43522D053C30047D72B /* UISegmentedControl+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42922D053C30047D72B /* UISegmentedControl+FlashUI.swift */; };
-		8365C43622D053C30047D72B /* UICollectionView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42A22D053C30047D72B /* UICollectionView+FlashUI.swift */; };
-		8365C43722D053C30047D72B /* UIScrollView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42B22D053C30047D72B /* UIScrollView+FlashUI.swift */; };
-		8365C43822D053C30047D72B /* UIStackView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42C22D053C30047D72B /* UIStackView+FlashUI.swift */; };
-		8365C43922D053C30047D72B /* UITextField+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42D22D053C30047D72B /* UITextField+FlashUI.swift */; };
-		8365C43A22D053C40047D72B /* UIView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42E22D053C30047D72B /* UIView+FlashUI.swift */; };
-		8365C43B22D053C40047D72B /* UIImageView+FlashUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C42F22D053C30047D72B /* UIImageView+FlashUI.swift */; };
+		4F78D7E380F18EF8315CF5AC /* Pods_FlashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173F1EB25872C952F744E66C /* Pods_FlashUITests.framework */; };
 		83E799DF22C7E0A200BB2737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799DE22C7E0A200BB2737 /* AppDelegate.swift */; };
 		83E799E122C7E0A200BB2737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799E022C7E0A200BB2737 /* ViewController.swift */; };
 		83E799E422C7E0A200BB2737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E799E222C7E0A200BB2737 /* Main.storyboard */; };
@@ -26,6 +15,8 @@
 		83E799E922C7E0A300BB2737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E799E722C7E0A300BB2737 /* LaunchScreen.storyboard */; };
 		83E799F422C7E0A400BB2737 /* FlashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799F322C7E0A400BB2737 /* FlashUITests.swift */; };
 		83E799FF22C7E0A400BB2737 /* FlashUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E799FE22C7E0A400BB2737 /* FlashUIUITests.swift */; };
+		ADFC2936E9E8C5916F98D30E /* Pods_FlashUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3996C4969738CE1306542B /* Pods_FlashUIUITests.framework */; };
+		B75BC4887248F40D2343CAA0 /* Pods_FlashUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B6C11533EA643C07330620 /* Pods_FlashUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8365C42422D053C30047D72B /* UITableView+Flash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Flash.swift"; sourceTree = "<group>"; };
-		8365C42522D053C30047D72B /* UISearchBar+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42622D053C30047D72B /* UIActivityIndicatorView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42722D053C30047D72B /* UILabel+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42822D053C30047D72B /* UIButton+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42922D053C30047D72B /* UISegmentedControl+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42A22D053C30047D72B /* UICollectionView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42B22D053C30047D72B /* UIScrollView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42C22D053C30047D72B /* UIStackView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42D22D053C30047D72B /* UITextField+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42E22D053C30047D72B /* UIView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FlashUI.swift"; sourceTree = "<group>"; };
-		8365C42F22D053C30047D72B /* UIImageView+FlashUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+FlashUI.swift"; sourceTree = "<group>"; };
+		0B300401CB3BE9BCDEA12DAB /* Pods-FlashUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUI.release.xcconfig"; path = "Target Support Files/Pods-FlashUI/Pods-FlashUI.release.xcconfig"; sourceTree = "<group>"; };
+		10448D06EF59D2DF9E079DB4 /* Pods-FlashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUITests.release.xcconfig"; path = "Target Support Files/Pods-FlashUITests/Pods-FlashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		173F1EB25872C952F744E66C /* Pods_FlashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD5118DF8D5CB454584806D /* Pods-FlashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlashUITests/Pods-FlashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3996C4969738CE1306542B /* Pods_FlashUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B6C11533EA643C07330620 /* Pods_FlashUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E799DB22C7E0A200BB2737 /* FlashUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E799DE22C7E0A200BB2737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83E799E022C7E0A200BB2737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +56,9 @@
 		83E799FA22C7E0A400BB2737 /* FlashUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E799FE22C7E0A400BB2737 /* FlashUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashUIUITests.swift; sourceTree = "<group>"; };
 		83E79A0022C7E0A400BB2737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA24BA4500BB048F233C5399 /* Pods-FlashUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUI.debug.xcconfig"; path = "Target Support Files/Pods-FlashUI/Pods-FlashUI.debug.xcconfig"; sourceTree = "<group>"; };
+		CB804C0F4E3D421247CBBEF0 /* Pods-FlashUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUIUITests.release.xcconfig"; path = "Target Support Files/Pods-FlashUIUITests/Pods-FlashUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF14B31B974392742C3FB522 /* Pods-FlashUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlashUIUITests/Pods-FlashUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B75BC4887248F40D2343CAA0 /* Pods_FlashUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F78D7E380F18EF8315CF5AC /* Pods_FlashUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,38 +82,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFC2936E9E8C5916F98D30E /* Pods_FlashUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8365C42222D053C30047D72B /* FlashUI */ = {
+		662816DDAE24959671BF3ABB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8365C42322D053C30047D72B /* Classes */,
+				CA24BA4500BB048F233C5399 /* Pods-FlashUI.debug.xcconfig */,
+				0B300401CB3BE9BCDEA12DAB /* Pods-FlashUI.release.xcconfig */,
+				2BD5118DF8D5CB454584806D /* Pods-FlashUITests.debug.xcconfig */,
+				10448D06EF59D2DF9E079DB4 /* Pods-FlashUITests.release.xcconfig */,
+				EF14B31B974392742C3FB522 /* Pods-FlashUIUITests.debug.xcconfig */,
+				CB804C0F4E3D421247CBBEF0 /* Pods-FlashUIUITests.release.xcconfig */,
 			);
-			name = FlashUI;
-			path = ../../FlashUI;
-			sourceTree = "<group>";
-		};
-		8365C42322D053C30047D72B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8365C42422D053C30047D72B /* UITableView+Flash.swift */,
-				8365C42522D053C30047D72B /* UISearchBar+FlashUI.swift */,
-				8365C42622D053C30047D72B /* UIActivityIndicatorView+FlashUI.swift */,
-				8365C42722D053C30047D72B /* UILabel+FlashUI.swift */,
-				8365C42822D053C30047D72B /* UIButton+FlashUI.swift */,
-				8365C42922D053C30047D72B /* UISegmentedControl+FlashUI.swift */,
-				8365C42A22D053C30047D72B /* UICollectionView+FlashUI.swift */,
-				8365C42B22D053C30047D72B /* UIScrollView+FlashUI.swift */,
-				8365C42C22D053C30047D72B /* UIStackView+FlashUI.swift */,
-				8365C42D22D053C30047D72B /* UITextField+FlashUI.swift */,
-				8365C42E22D053C30047D72B /* UIView+FlashUI.swift */,
-				8365C42F22D053C30047D72B /* UIImageView+FlashUI.swift */,
-			);
-			path = Classes;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		83E799D222C7E0A200BB2737 = {
@@ -133,6 +109,8 @@
 				83E799F222C7E0A400BB2737 /* FlashUITests */,
 				83E799FD22C7E0A400BB2737 /* FlashUIUITests */,
 				83E799DC22C7E0A200BB2737 /* Products */,
+				662816DDAE24959671BF3ABB /* Pods */,
+				C1B157DD743A856097D41462 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,7 +127,6 @@
 		83E799DD22C7E0A200BB2737 /* FlashUI */ = {
 			isa = PBXGroup;
 			children = (
-				8365C42222D053C30047D72B /* FlashUI */,
 				83E799DE22C7E0A200BB2737 /* AppDelegate.swift */,
 				83E799E022C7E0A200BB2737 /* ViewController.swift */,
 				83E799E222C7E0A200BB2737 /* Main.storyboard */,
@@ -178,6 +155,16 @@
 			path = FlashUIUITests;
 			sourceTree = "<group>";
 		};
+		C1B157DD743A856097D41462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B6C11533EA643C07330620 /* Pods_FlashUI.framework */,
+				173F1EB25872C952F744E66C /* Pods_FlashUITests.framework */,
+				2C3996C4969738CE1306542B /* Pods_FlashUIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E79A0322C7E0A400BB2737 /* Build configuration list for PBXNativeTarget "FlashUI" */;
 			buildPhases = (
+				93EF87068276BACB17072239 /* [CP] Check Pods Manifest.lock */,
 				83E799D722C7E0A200BB2737 /* Sources */,
 				83E799D822C7E0A200BB2737 /* Frameworks */,
 				83E799D922C7E0A200BB2737 /* Resources */,
+				54DCDD148E884DB0D729C744 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E79A0622C7E0A400BB2737 /* Build configuration list for PBXNativeTarget "FlashUITests" */;
 			buildPhases = (
+				9988BF3CCC96EE3C641FED1D /* [CP] Check Pods Manifest.lock */,
 				83E799EB22C7E0A400BB2737 /* Sources */,
 				83E799EC22C7E0A400BB2737 /* Frameworks */,
 				83E799ED22C7E0A400BB2737 /* Resources */,
@@ -220,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83E79A0922C7E0A400BB2737 /* Build configuration list for PBXNativeTarget "FlashUIUITests" */;
 			buildPhases = (
+				958774345CB39ECF6F9DC864 /* [CP] Check Pods Manifest.lock */,
 				83E799F622C7E0A400BB2737 /* Sources */,
 				83E799F722C7E0A400BB2737 /* Frameworks */,
 				83E799F822C7E0A400BB2737 /* Resources */,
@@ -304,25 +295,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54DCDD148E884DB0D729C744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashUI/Pods-FlashUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlashUI/Pods-FlashUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlashUI/Pods-FlashUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93EF87068276BACB17072239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958774345CB39ECF6F9DC864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9988BF3CCC96EE3C641FED1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83E799D722C7E0A200BB2737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8365C43A22D053C40047D72B /* UIView+FlashUI.swift in Sources */,
-				8365C43122D053C30047D72B /* UISearchBar+FlashUI.swift in Sources */,
-				8365C43622D053C30047D72B /* UICollectionView+FlashUI.swift in Sources */,
-				8365C43722D053C30047D72B /* UIScrollView+FlashUI.swift in Sources */,
-				8365C43322D053C30047D72B /* UILabel+FlashUI.swift in Sources */,
-				8365C43522D053C30047D72B /* UISegmentedControl+FlashUI.swift in Sources */,
 				83E799E122C7E0A200BB2737 /* ViewController.swift in Sources */,
-				8365C43922D053C30047D72B /* UITextField+FlashUI.swift in Sources */,
-				8365C43022D053C30047D72B /* UITableView+Flash.swift in Sources */,
-				8365C43822D053C30047D72B /* UIStackView+FlashUI.swift in Sources */,
 				83E799DF22C7E0A200BB2737 /* AppDelegate.swift in Sources */,
-				8365C43222D053C30047D72B /* UIActivityIndicatorView+FlashUI.swift in Sources */,
-				8365C43422D053C30047D72B /* UIButton+FlashUI.swift in Sources */,
-				8365C43B22D053C40047D72B /* UIImageView+FlashUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +560,7 @@
 		};
 		83E79A0422C7E0A400BB2737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA24BA4500BB048F233C5399 /* Pods-FlashUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +579,7 @@
 		};
 		83E79A0522C7E0A400BB2737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B300401CB3BE9BCDEA12DAB /* Pods-FlashUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +598,7 @@
 		};
 		83E79A0722C7E0A400BB2737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD5118DF8D5CB454584806D /* Pods-FlashUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -552,6 +620,7 @@
 		};
 		83E79A0822C7E0A400BB2737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10448D06EF59D2DF9E079DB4 /* Pods-FlashUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -573,6 +642,7 @@
 		};
 		83E79A0A22C7E0A400BB2737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF14B31B974392742C3FB522 /* Pods-FlashUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +663,7 @@
 		};
 		83E79A0B22C7E0A400BB2737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB804C0F4E3D421247CBBEF0 /* Pods-FlashUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

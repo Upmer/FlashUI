@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UILabel {
+public extension UILabel {
   func text(_ text: String?) -> Self {
     self.text = text
     return self
