@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		8365C48D22D05B360047D72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8365C48B22D05B360047D72B /* LaunchScreen.storyboard */; };
 		8365C49822D05B360047D72B /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C49722D05B360047D72B /* ExampleTests.swift */; };
 		8365C4A322D05B360047D72B /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4A222D05B360047D72B /* ExampleUITests.swift */; };
+		8365C4B622D0ECFE0047D72B /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */; };
+		8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4B722D230C60047D72B /* NibTableViewCell.swift */; };
+		8365C4BA22D230C60047D72B /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365C4B822D230C60047D72B /* NibTableViewCell.xib */; };
 		DF62B3C489EEAF99B815055F /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B022F0744C2153B5E393BA /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		8365C49E22D05B360047D72B /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8365C4A222D05B360047D72B /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		8365C4A422D05B360047D72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		8365C4B722D230C60047D72B /* NibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		8365C4B822D230C60047D72B /* NibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
 		B11C3FE9D51900E393858EED /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6A3E82DB69B0D2F0FD86655 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4642DAC28E690E26EDC265 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				8365C48922D05B360047D72B /* Assets.xcassets */,
 				8365C48B22D05B360047D72B /* LaunchScreen.storyboard */,
 				8365C48E22D05B360047D72B /* Info.plist */,
+				8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */,
+				8365C4B722D230C60047D72B /* NibTableViewCell.swift */,
+				8365C4B822D230C60047D72B /* NibTableViewCell.xib */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -162,7 +171,6 @@
 				157DBCCC6C5F73744A5BF957 /* Pods-ExampleUITests.debug.xcconfig */,
 				CE4642DAC28E690E26EDC265 /* Pods-ExampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -275,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8365C48D22D05B360047D72B /* LaunchScreen.storyboard in Resources */,
+				8365C4BA22D230C60047D72B /* NibTableViewCell.xib in Resources */,
 				8365C48A22D05B360047D72B /* Assets.xcassets in Resources */,
 				8365C48822D05B350047D72B /* Main.storyboard in Resources */,
 			);
@@ -388,7 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8365C48522D05B350047D72B /* ViewController.swift in Sources */,
+				8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */,
 				8365C48322D05B350047D72B /* AppDelegate.swift in Sources */,
+				8365C4B622D0ECFE0047D72B /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
