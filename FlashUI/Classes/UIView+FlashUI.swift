@@ -22,6 +22,26 @@ public extension UIView {
     self.tag = tag
     return self
   }
+  func contentScaleFactor(_ contentScaleFactor: CGFloat) -> Self {
+    self.contentScaleFactor = contentScaleFactor
+    return self
+  }
+  func isMultipleTouchEnabled(_ isMultipleTouchEnabled: Bool) -> Self {
+    self.isMultipleTouchEnabled = isMultipleTouchEnabled
+    return self
+  }
+  func isExclusiveTouch(_ isExclusiveTouch: Bool) -> Self {
+    self.isExclusiveTouch = isExclusiveTouch
+    return self
+  }
+  func clearsContextBeforeDrawing(_ clearsContextBeforeDrawing: Bool) -> Self {
+    self.clearsContextBeforeDrawing = clearsContextBeforeDrawing
+    return self
+  }
+  func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+    self.isUserInteractionEnabled = isUserInteractionEnabled
+    return self
+  }
   func isHidden(_ isHidden: Bool = true) -> Self {
     self.isHidden = isHidden
     return self
