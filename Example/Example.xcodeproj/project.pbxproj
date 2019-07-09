@@ -19,6 +19,7 @@
 		8365C4B622D0ECFE0047D72B /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */; };
 		8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4B722D230C60047D72B /* NibTableViewCell.swift */; };
 		8365C4BA22D230C60047D72B /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365C4B822D230C60047D72B /* NibTableViewCell.xib */; };
+		83B24D6922D4AE1D0058C32D /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B24D6822D4AE1D0058C32D /* MyStackView.swift */; };
 		DF62B3C489EEAF99B815055F /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B022F0744C2153B5E393BA /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
 		8365C4B722D230C60047D72B /* NibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
 		8365C4B822D230C60047D72B /* NibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		83B24D6822D4AE1D0058C32D /* MyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackView.swift; sourceTree = "<group>"; };
 		B11C3FE9D51900E393858EED /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		B6A3E82DB69B0D2F0FD86655 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4642DAC28E690E26EDC265 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				8365C4B522D0ECFE0047D72B /* TestTableViewCell.swift */,
 				8365C4B722D230C60047D72B /* NibTableViewCell.swift */,
 				8365C4B822D230C60047D72B /* NibTableViewCell.xib */,
+				83B24D6822D4AE1D0058C32D /* MyStackView.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8365C48522D05B350047D72B /* ViewController.swift in Sources */,
+				83B24D6922D4AE1D0058C32D /* MyStackView.swift in Sources */,
 				8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */,
 				8365C48322D05B350047D72B /* AppDelegate.swift in Sources */,
 				8365C4B622D0ECFE0047D72B /* TestTableViewCell.swift in Sources */,

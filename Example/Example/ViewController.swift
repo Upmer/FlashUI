@@ -12,19 +12,40 @@ import FlashUI
 class ViewController: UIViewController {
   
   weak var tableView: UITableView!
+  weak var stackView: MyStackView!
+  weak var aBtn: UIButton!
+  weak var bBtn: UIButton!
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    tableView = UITableView(frame: view.bounds, style: .plain).delegate(self)
-      .dataSource(self).superview(view)
-    tableView.registerCell(TestTableViewCell.self)
+//    tableView = UITableView(frame: view.bounds, style: .plain).delegate(self)
+//      .dataSource(self).superview(view)
+//    tableView.registerCell(TestTableViewCell.self)
 //    tableView.register(TestTableViewCell.self, forCellReuseIdentifier: "Example.TestTableViewCell.Identifier")
 //    tableView.register(UINib(nibName: "NibTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
 //    debugPrint(TestTableViewCell.self.description())
 //    debugPrint(<#T##items: Any...##Any#>)
+    
+    stackView = MyStackView().axis(.vertical).superview(view)
+    stackView.frame = CGRect(x: 100, y: 200, width: 100, height: 300)
+    
+    stackView.add {
+      let aBtn = UIButton().normalTitle("AAA").normalTitleColor(.red)
+      self.aBtn = aBtn
+      return aBtn
+    }
+    
+    stackView.add {
+      let bBtn = UIButton().normalTitle("BBB").normalTitleColor(.blue)
+      self.bBtn = bBtn
+      return bBtn
+    }
   }
 
-
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    super.touchesBegan(touches, with: event)
+    stackView.removeFromSuperview()
+  }
 }
 
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
