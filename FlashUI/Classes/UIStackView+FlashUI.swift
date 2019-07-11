@@ -34,7 +34,9 @@ public extension UIStackView {
     return self
   }
   
-  func add(_ generator: (() -> UIView)) {
-    self.addArrangedSubview(generator())
+  func add<T: UIView>(_ generator: (() -> T)) -> T {
+    let view = generator()
+    self.addArrangedSubview(view)
+    return view
   }
 }
