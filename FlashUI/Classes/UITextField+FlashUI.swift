@@ -116,4 +116,8 @@ public extension UITextField {
     self.clearsOnInsertion = clearsOnInsertion
     return self
   }
+  func keyboardType(_ type: UIKeyboardType) -> Self {
+        self.keyboardType = type
+        return self
+  }
 }
