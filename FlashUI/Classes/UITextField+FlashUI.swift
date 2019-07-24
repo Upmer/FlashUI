@@ -117,7 +117,15 @@ public extension UITextField {
     return self
   }
   func keyboardType(_ type: UIKeyboardType) -> Self {
-        self.keyboardType = type
+    self.keyboardType = type
         return self
+  }
+  func placeholderFont(_ font: UIFont) -> Self {
+    setValue(font, forKeyPath: "_placeholderLabel.font")
+    return self
+  }
+  func placeholderColor(_ color: UIColor) -> Self {
+    setValue(font, forKeyPath: "_placeholderLabel.textColor")
+    return self
   }
 }
