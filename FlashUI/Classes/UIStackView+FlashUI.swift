@@ -34,6 +34,7 @@ public extension UIStackView {
     return self
   }
   
+  @discardableResult
   func add<T: UIView>(_ generator: (() -> T)) -> T {
     let view = generator()
     self.addArrangedSubview(view)
