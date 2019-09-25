@@ -136,7 +136,7 @@ public extension UIView {
     self.addGestureRecognizer(tap)
     return self
   }
-  func longPressGestureRecognizer(target: Any, action: Selector, minimumPressDuration: TimeInterval, numberOfTapsRequired: Int = 1, numberOfTouchesRequired: Int = 1) -> Self {
+  func longPressGestureRecognizer(target: Any, action: Selector, minimumPressDuration: TimeInterval, numberOfTapsRequired: Int = 0, numberOfTouchesRequired: Int = 1) -> Self {
     let longPress = UILongPressGestureRecognizer(target: target, action: action)
     longPress.minimumPressDuration = minimumPressDuration
     longPress.numberOfTapsRequired = numberOfTapsRequired
