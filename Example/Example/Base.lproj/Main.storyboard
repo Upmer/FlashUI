@@ -122,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="-380" y="27"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Test Collection View Controller-->
         <scene sceneID="Ro3-MY-oG5">
             <objects>
-                <viewController id="k0f-H0-lsq" customClass="UICollectionViewController" sceneMemberID="viewController">
+                <viewController id="k0f-H0-lsq" customClass="TestCollectionViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fwt-Do-ooo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5JR-GR-Zdu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="341" y="325"/>
+            <point key="canvasLocation" x="462" y="385"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Oj0-dr-SvA">

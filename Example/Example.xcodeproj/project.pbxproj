@@ -20,6 +20,8 @@
 		8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8365C4B722D230C60047D72B /* NibTableViewCell.swift */; };
 		8365C4BA22D230C60047D72B /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8365C4B822D230C60047D72B /* NibTableViewCell.xib */; };
 		83B24D6922D4AE1D0058C32D /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B24D6822D4AE1D0058C32D /* MyStackView.swift */; };
+		D68BC35123C59AB000239CF4 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BC35023C59AB000239CF4 /* CollectionHeaderView.swift */; };
+		D68BC35323C59AB900239CF4 /* CollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68BC35223C59AB900239CF4 /* CollectionFooterView.swift */; };
 		D6A4EFBF23C58FE80038C876 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4EFBE23C58FE80038C876 /* TestTableViewController.swift */; };
 		D6A4EFC123C58FF00038C876 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4EFC023C58FF00038C876 /* TestCollectionViewController.swift */; };
 		D6A4EFC323C590010038C876 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4EFC223C590010038C876 /* TestCollectionViewCell.swift */; };
@@ -72,6 +74,8 @@
 		B6A3E82DB69B0D2F0FD86655 /* Pods_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4642DAC28E690E26EDC265 /* Pods-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleUITests/Pods-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D5CE48963A2138EE4CDE7683 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D68BC35023C59AB000239CF4 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		D68BC35223C59AB900239CF4 /* CollectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFooterView.swift; sourceTree = "<group>"; };
 		D6A4EFBE23C58FE80038C876 /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		D6A4EFC023C58FF00038C876 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
 		D6A4EFC223C590010038C876 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 			children = (
 				D6A4EFC023C58FF00038C876 /* TestCollectionViewController.swift */,
 				D6A4EFC223C590010038C876 /* TestCollectionViewCell.swift */,
+				D68BC35023C59AB000239CF4 /* CollectionHeaderView.swift */,
+				D68BC35223C59AB900239CF4 /* CollectionFooterView.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A4EFC723C5932D0038C876 /* TestTableHeaderView.swift in Sources */,
+				D68BC35123C59AB000239CF4 /* CollectionHeaderView.swift in Sources */,
 				8365C48522D05B350047D72B /* ViewController.swift in Sources */,
 				83B24D6922D4AE1D0058C32D /* MyStackView.swift in Sources */,
 				8365C4B922D230C60047D72B /* NibTableViewCell.swift in Sources */,
@@ -440,6 +447,7 @@
 				D6A4EFC323C590010038C876 /* TestCollectionViewCell.swift in Sources */,
 				D6A4EFC923C593360038C876 /* TableFooterView.swift in Sources */,
 				D6A4EFC123C58FF00038C876 /* TestCollectionViewController.swift in Sources */,
+				D68BC35323C59AB900239CF4 /* CollectionFooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

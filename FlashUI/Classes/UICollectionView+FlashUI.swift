@@ -74,4 +74,46 @@ public extension UICollectionView {
     self.remembersLastFocusedIndexPath = remembersLastFocusedIndexPath
     return self
   }
+  
+  func registerCell<T: UICollectionViewCell>(_ cellClass: T.Type) -> Self {
+    let identifier = cellClass.description() + ".Identifier"
+    self.register(cellClass, forCellWithReuseIdentifier: identifier)
+    return self
+  }
+  
+  func dequeueReusableCell<T: UICollectionViewCell>(_ cellClass: T.Type, for indexPath: IndexPath) -> T {
+    let identifier = cellClass.description() + ".Identifier"
+    guard let cell = self.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? T else {
+      fatalError("No specific identifier is registered for the \(cellClass.description()) cell")
+    }
+    return cell
+  }
+  
+  func registerHeaderView<T: UICollectionReusableView>(_ viewClass: T.Type) -> Self {
+    let identifier = viewClass.description() + ".Identifier"
+    self.register(viewClass, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier)
+    return self
+  }
+  
+  func registerFooterView<T: UICollectionReusableView>(_ viewClass: T.Type) -> Self {
+    let identifier = viewClass.description() + ".Identifier"
+    self.register(viewClass, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: identifier)
+    return self
+  }
+
+  func dequeueReusableHeaderView<T: UICollectionReusableView>(_ viewClass: T.Type, for indexPath: IndexPath) -> T {
+    let identifier = viewClass.description() + ".Identifier"
+    guard let view = self.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier, for: indexPath) as? T else {
+      fatalError("No specific identifier is registered for the \(viewClass.description()) headerView")
+    }
+    return view
+  }
+
+  func dequeueReusableFooterView<T: UICollectionReusableView>(_ viewClass: T.Type, for indexPath: IndexPath) -> T {
+    let identifier = viewClass.description() + ".Identifier"
+    guard let view = self.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: identifier, for: indexPath) as? T else {
+      fatalError("No specific identifier is registered for the \(viewClass.description()) footerView")
+    }
+    return view
+  }
 }

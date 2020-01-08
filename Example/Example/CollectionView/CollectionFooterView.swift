@@ -1,5 +1,5 @@
 //
-//  TestCollectionViewCell.swift
+//  CollectionFooterView.swift
 //  Example
 //
 //  Created by upmer on 2020/1/8.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestCollectionViewCell: UICollectionViewCell {
+class CollectionFooterView: UICollectionReusableView {
   
   private weak var titleLabel: UILabel!
   
@@ -23,14 +23,14 @@ class TestCollectionViewCell: UICollectionViewCell {
   }
   
   private func render() {
-    titleLabel = UILabel().text("I'm collectionView cell")
-      .font(UIFont.boldSystemFont(ofSize: 14)).textColor(.orange)
+    titleLabel = UILabel().text("I'm collectionView footer view")
+      .font(UIFont.boldSystemFont(ofSize: 14)).textColor(.blue)
       .numberOfLines(0).textAlignment(.center)
-      .superview(contentView)
+      .superview(self)
   }
 
   override func layoutSubviews() {
     super.layoutSubviews()
-    titleLabel.frame = contentView.bounds
+    titleLabel.frame = self.bounds
   }
 }
