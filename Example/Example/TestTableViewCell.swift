@@ -22,7 +22,9 @@ class TestTableViewCell: UITableViewCell {
   }
   
   func setupUI() {
-    titleLabel = UILabel().font(UIFont.boldSystemFont(ofSize: 14)).textColor(.orange).textAlignment(.center).superview(contentView)
+    titleLabel = UILabel().text("I'm tableview cell")
+      .font(UIFont.boldSystemFont(ofSize: 14)).textColor(.orange).textAlignment(.center)
+      .superview(contentView)
   }
 
   override func layoutSubviews() {

@@ -170,9 +170,10 @@ public extension UITableView {
     return self
   }
   
-  func registerCell<T: UITableViewCell>(_ cellClass: T.Type) {
+  func registerCell<T: UITableViewCell>(_ cellClass: T.Type) -> Self {
     let identifier = cellClass.description() + ".Identifier"
     self.register(cellClass, forCellReuseIdentifier: identifier)
+    return self
   }
   
   func dequeueReusableCell<T: UITableViewCell>(_ cellClass: T.Type) -> T {
@@ -183,12 +184,12 @@ public extension UITableView {
     return cell
   }
   
-  func registerHeaderFooterView<T: UITableViewHeaderFooterView>(_ viewClass: T.Type) {
+  func registerHeaderFooterView<T: UITableViewHeaderFooterView>(_ viewClass: T.Type) -> Self {
     let identifier = viewClass.description() + ".Identifier"
     self.register(viewClass, forHeaderFooterViewReuseIdentifier: identifier)
+    return self
   }
-  
-  
+
   func dequeueReusableHeaderFooterView<T: UITableViewHeaderFooterView>(_ viewClass: T.Type) -> T {
     let identifier = viewClass.description() + ".Identifier"
     guard let view = self.dequeueReusableHeaderFooterView(withIdentifier: identifier) as? T else {

@@ -1,5 +1,5 @@
 PODS:
-  - FlashUI (0.1.2)
+  - FlashUI (0.5.1)
 
 DEPENDENCIES:
   - FlashUI (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlashUI: 52f16bc0a802c1381e61dc367f329ea82e855a8e
+  FlashUI: d0beed568716550d786eb0532b3c33969011dc9e
 
 PODFILE CHECKSUM: c963a7ce49942f615eb622cc1ec0a05039477b59
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.4
