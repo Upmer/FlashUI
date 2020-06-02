@@ -129,7 +129,7 @@ view.panGestureRecognizer(target: self, action: #selector(onPan))
 
 ## Author
 
-KevinT, tifatsubasa@gmail.com
+Yuri, tifatsubasa@gmail.com
 
 ## License
 
