@@ -70,6 +70,10 @@ public extension UIView {
     self.tintAdjustmentMode = tintAdjustmentMode
     return self
   }
+  func translatesAutoresizingMaskIntoConstraints(_ translatesAutoresizingMaskIntoConstraints: Bool) -> Self {
+    self.translatesAutoresizingMaskIntoConstraints = translatesAutoresizingMaskIntoConstraints
+    return self
+  }
   
   // MARK: Position
   func x(_ x: CGFloat) -> Self {

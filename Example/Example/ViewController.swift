@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 //    debugPrint(TestTableViewCell.self.description())
 //    debugPrint(<#T##items: Any...##Any#>)
     
-    stackView = MyStackView().axis(.vertical).superview(view)
+    stackView = MyStackView().axis(.vertical).superview(view).translatesAutoresizingMaskIntoConstraints(false)
     stackView.frame = CGRect(x: 100, y: 200, width: 100, height: 300)
     
     stackView.add {
